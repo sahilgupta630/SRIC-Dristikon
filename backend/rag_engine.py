@@ -1,10 +1,17 @@
+
 import os
+import logging
 from pathlib import Path
+from typing import Dict, List, Optional, Any, Union
 from dotenv import load_dotenv
 import google.generativeai as genai
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 class RAGEngine:
     def __init__(self):
@@ -28,24 +35,29 @@ Instructions:
 
 If the information is not in the context, you must state: 'I cannot find the specific procedure in the documents, please consult the SRIC department.' Do not invent information."""
 
-    def initialize(self):
+    def initialize(self) -> bool:
         """Initialize the RAG system components."""
         try:
             if not self.faiss_db_path.exists():
+                logger.error("Vector database not found! Please run the indexing script first.")
                 raise FileNotFoundError("Vector database not found! Please run the indexing script first.")
             
             gemini_api_key = os.getenv("GEMINI_API_KEY")
             if not gemini_api_key:
+                logger.error("GEMINI_API_KEY not found")
                 raise ValueError("GEMINI_API_KEY not found in environment variables (required for embeddings)")
             
             groq_api_key = os.getenv("GROQ_API_KEY")
             if not groq_api_key:
+                logger.error("GROQ_API_KEY not found")
                 raise ValueError("GROQ_API_KEY not found in environment variables (required for generation)")
-            print("✅ Groq API Key successfully loaded.")
+            
+            logger.info("✅ API Keys loaded.")
             
             # Initialize embeddings
             embeddings = GoogleGenerativeAIEmbeddings(
-                model="models/text-embedding-004"
+                model="models/text-embedding-004",
+                google_api_key=gemini_api_key
             )
             
             # Load vector store
@@ -59,10 +71,6 @@ If the information is not in the context, you must state: 'I cannot find the spe
                 search_kwargs={"k": self.retrieval_k}
             )
             
-            # Initialize Gemini model for Embeddings (already passed to vectorstore implicitly via embeddings object if needed, but here we just used these vars)
-            # We don't need genai.configure for LangChain embeddings usually if env var is set, 
-            # but let's keep the embedding initialization clean.
-            
             # Initialize Groq Model
             self.model = ChatGroq(
                 groq_api_key=groq_api_key,
@@ -70,12 +78,13 @@ If the information is not in the context, you must state: 'I cannot find the spe
                 temperature=0.1,
                 max_tokens=4096
             )
+            logger.info("✅ RAG Engine initialized successfully.")
             return True
         except Exception as e:
-            print(f"Error initializing RAG system: {e}")
+            logger.error(f"Error initializing RAG system: {e}")
             return False
 
-    def query(self, user_query, conversation_history=None):
+    def query(self, user_query: str, conversation_history: Optional[List[Dict[str, str]]] = None) -> Dict[str, Any]:
         """Process a user query."""
         if not self.model or not self.retriever:
              if not self.initialize():
@@ -145,4 +154,5 @@ Answer:"""
             }
             
         except Exception as e:
+            logger.error(f"Error processing query: {str(e)}")
             return {"answer": f"Error processing query: {str(e)}", "sources": []}
