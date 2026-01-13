@@ -1,4 +1,4 @@
-# SRIC Dristikon Dashboard
+# SRIC Dristikon
 
 <div align="center">
 
@@ -120,8 +120,4 @@ Follow these steps to get the project running on your local machine.
 
 ---
 
-<div align="center">
 
-**Developed with ❤️ for SRIC, IIT Kharagpur**
-
-</div>
