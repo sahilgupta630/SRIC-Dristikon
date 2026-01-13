@@ -1,0 +1,24 @@
+services:
+  fastapi-backend:
+    build: ./backend
+    container_name: boughtybot-api
+    command: uvicorn api:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped
+
+  streamlit-ui:
+    build: ./backend
+    container_name: boughtybot-ui
+    command: streamlit run ui_chat.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./backend:/app
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped

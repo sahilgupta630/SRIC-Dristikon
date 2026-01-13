@@ -1,0 +1,11 @@
+Columns for SricProjectMaster:
+project_type: VARCHAR
+project_code: INTEGER
+user_project_code: VARCHAR
+title: VARCHAR
+total_sanctioned_grant: NUMERIC
+date_of_commencement: DATE
+closing_date: DATE
+sric_cl_flg: VARCHAR
+delete_flag: VARCHAR
+sric_virtual_project_flag: VARCHAR

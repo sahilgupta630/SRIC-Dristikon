@@ -1,0 +1,88 @@
+
+--- SricProjectInchargeDetails Columns ---
+user_project_code: VARCHAR
+type: VARCHAR
+stakeholder_name: VARCHAR
+stakeholder_type: VARCHAR
+stakeholder_dept: VARCHAR
+stakeholder_code: VARCHAR
+
+--- ViwEmpmas Columns ---
+empno: VARCHAR
+empname: VARCHAR
+emp_sex: VARCHAR
+emp_maritalsts: VARCHAR
+emp_father: VARCHAR
+emp_prsadd: VARCHAR
+emp_pmtadd: VARCHAR
+emp_edu: VARCHAR
+emp_pedu: VARCHAR
+emp_cast: VARCHAR
+blood_group: VARCHAR
+empbasic: VARCHAR
+emp_lastbasic: VARCHAR
+empdob: VARCHAR
+empdoj: VARCHAR
+time_join: VARCHAR
+empdni: VARCHAR
+empdor: VARCHAR
+empdesg: VARCHAR
+empsubpst: VARCHAR
+emp_inidesgn: VARCHAR
+empdept: VARCHAR
+empclas: VARCHAR
+place_of_posting: VARCHAR
+hra_flag: VARCHAR
+npa_flag: VARCHAR
+handy_flag: VARCHAR
+empstatus: VARCHAR
+eol_status: VARCHAR
+on_deputation: VARCHAR
+salcode: VARCHAR
+salsrno: VARCHAR
+empbankac: VARCHAR
+pay_yn: VARCHAR
+pftype: VARCHAR
+scale_ind: VARCHAR
+eb_flag: VARCHAR
+punish_flag: VARCHAR
+on_prob: VARCHAR
+con_dt: VARCHAR
+prob_prd: VARCHAR
+promot_dt: VARCHAR
+elcrdt: VARCHAR
+hplcrdt: VARCHAR
+emplstincdt: VARCHAR
+vactype: VARCHAR
+lastpromodt: VARCHAR
+dt_reg_exp: VARCHAR
+oo_no_dt: VARCHAR
+appt_type: VARCHAR
+sal_status: VARCHAR
+religion: VARCHAR
+last_prom_dt: VARCHAR
+place_birth: VARCHAR
+in_service: VARCHAR
+file_no: VARCHAR
+specialisation1: VARCHAR
+specialisation2: VARCHAR
+pan_no: VARCHAR
+bank_code: VARCHAR
+
+--- ViwDpcode Columns ---
+dept: VARCHAR
+depname: VARCHAR
+deptype: VARCHAR
+depsubtype: VARCHAR
+
+--- SricProjectMaster Columns ---
+project_type: VARCHAR
+project_code: INTEGER
+user_project_code: VARCHAR
+title: VARCHAR
+total_sanctioned_grant: NUMERIC
+date_of_commencement: DATE
+closing_date: DATE
+sric_cl_flg: VARCHAR
+delete_flag: VARCHAR
+sric_virtual_project_flag: VARCHAR

@@ -1,0 +1,21 @@
+# Streamlit Configuration File
+
+[client]
+# Hide the "Deploy" button
+showDeployButton = false
+
+# Hide the hamburger menu (3-dot button) - set to "minimal" to show less, "hidden" to completely hide
+toolbarMode = "minimal"
+
+[theme]
+# Optional: Customize your app's theme
+# primaryColor = "#2196F3"
+# backgroundColor = "#FFFFFF"
+# secondaryBackgroundColor = "#F5F5F5"
+# textColor = "#262730"
+# font = "sans serif"
+
+[server]
+# Server configuration
+# port = 8501
+# headless = true

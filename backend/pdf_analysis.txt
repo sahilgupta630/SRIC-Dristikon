@@ -1,0 +1,243 @@
+python : C:\Users\SRIC\AppDat
+a\Local\Programs\Python\Pytho
+n314\Lib\site-packages\langch
+ain_core\_api\deprecation.py:
+26: UserWarning: Core 
+Pydantic V1 functionality 
+isn't compatible with Python 
+3.14 or greater.
+At line:1 char:1
++ python 
+check_pdf_content.py > 
+pdf_analysis.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (C:\User  
+  s\SRIC\A....14 or greate   
+ r.:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+  from pydantic.v1.fields 
+import FieldInfo as 
+FieldInfoV1
+Total pages in PDF: 208
+
+================================================================================
+SEARCHING FOR RELEVANT SECTIONS
+================================================================================
+
+================================================================================
+PAGE 4 - Contains relevant information
+================================================================================
+5 | P a g e  
+ 
+ 
+  
+ 
+# Table of Content  Page no 
+1 Non GeM Procurement of scientific purposes up to Rs. 2,00,000 : 6 
+2 GeM Procurement of scientific equipment up to Rs 2,00,000 : 6 
+3 GeM purchase from Rs. 2,00001 to Rs. 25,0000 : 6 
+4 Local Purchase Committee Rs. 2,00,000 to Rs. 25,00,000 : 7 
+5 Purchase Proposals against Tender (NIT) : 8 
+6 Purchase for Spare Parts : 10 
+7 Purchase through PNC : 11 
+8 Purchase through AMC  : 12 
+9 Documents required for Import Shipment : 13 
+10 Documents required for foreign export shipment : 13 
+11 Tender in the CPP Portal : 14 
+12 Documents for import shipment : 14 
+13 Procurement through LI direct Purchase process from GEM portal from 
+Rs 1,00001 to 10,00000 : 15 
+14 Normal/Custom/BoQ bid in the GeM portal for purchase above 5 lakhs : 15 
+15 Purchase through Global Tender Enquiry : 16 
+16 Annexure-1 : 17-50 
+17 Annexure-2  : 51-96 
+18 Annexure-3  : 97-134 
+19 Annexure-4  : 134-184 
+20 Annexure-5 : 185 
+21  Annexureû6 : 186-187 
+22 Annexureû7 : 188-193 
+23 Annexure-8 : 194-197 
+24 Annexure-9 : 198-206 
+25 Annexure-10 : 207 
+26 Important Links : 208 
+ 
+TABLE OF CONTENTS
+
+================================================================================
+
+
+================================================================================
+PAGE 5 - Contains relevant information
+================================================================================
+6 | P a g e  
+ 
+ 
+1. Non GeM procurement up to Rs. 2,00,000/-* 
+*GeM non-availability certificate is not required (No.F.20/42/2021-PPD, Dt 05.06.2025, Ministry of 
+Finance, Dept of Expenditure, Office Memorandum)  
+List of documents required 
+ 
+1. Invoice with Certification of PI û Annexure û 7  
+2. Good Receipt Note (GRN) through ERP system (Only Non-recurring head 
+purchase) 
+ 
+3. Undertaking form as per Annexure -10 (Only for purchase above Rs 25000)  
+ 
+2. GeM procurement up to Rs 2,00,000/- 
+List of documents required  
+ 
+1. Invoice with Certification of PI û Annexure û 7  
+2. Good Receipt Note (GRN) through ERP system (Only Equipment head purchase)  
+3. CRAC (GeM Purchase only)  
+ 
+ 
+3. GeM purchase from Rs. 2,00001/- to Rs. 25,0000/- 
+List documents required  
+ 
+1. Invoice with Certification of PI û Annexure û 7   
+2. Good Receipt Note (GRN) through ERP system (Only Equipment head purchase)   
+3. CRAC (GeM Purchase only)   
+4. Delivery Challan & Installation certificate with signature of certification of PI   
+5. Warranty certificate     
+6. Performance Bank Guarantee (If mention in the purchase order/ Tender 
+document)
+
+================================================================================
+
+
+================================================================================
+PAGE 6 - Contains relevant information
+================================================================================
+7 | P a g e  
+ 
+4. Local Purchase Committee (Rs. 2,00,000/- to Rs. 25,00,000/-) 
+List of documents required 
+ 
+1.GeM Non-Availability Certificate  
+  
+ 
+2.Enquiry (Minimum-4) 
+https://sric.iitkgp.ac.in/web4/public/docss/enq_quote.docx?1763615476  
+  
+ 
+3.Minimum three quotations 
+  
+ 
+4.Price comparative statement (Annexure û 5)  
+  
+ 
+5.Local Purchase Committee Certificate (LPC) 
+https://sric.iitkgp.ac.in/web4/public/docss/lpcc_templt.docx?1763615476 
+  
+ 
+6.  Certificate for goods & Services procured through purchase committee    
+7. Purchase Requisition form  
+https://sric.iitkgp.ac.in/web4/public/docss/indpur.pdf?1763615476  
+ 
+8. Justification of purchase   
+9. Self-Declaration for Local Content (Class I or Class II) for more than 05 Lakh 
+ https://sric.iitkgp.ac.in/web4/public/docss/sdlc.docx?1763615476  
+  
+ 
+10.  Land & Border Sharing Certificate  
+https://sric.iitkgp.ac.in/web4/public/docss/lbcg_r.docx?1763615476 
+  
+ 
+11.   OEM Certificate  
+https://sric.iitkgp.ac.in/web4/public/docss/OEM.docx?1763615476
+
+================================================================================
+
+
+================================================================================
+PAGE 14 - Contains relevant information
+================================================================================
+15 | P a g e  
+ 
+ 
+13. Procurement through LI direct Purchase process from GEM portal from Rs 
+1,00001 to 10,00000 
+ 
+List of documents required 
+ 
+1.Price Comparative Statement (minimum 3 difference OEM)   
+2.GeM Indent  
+https://sric.iitkgp.ac.in/web4/public/docss/GeM_INDENT%2028.05.2021.doc
+x?1763615476  
+   
+3.Contract copy   
+4.Sanction Copy   
+5.Purchase Committee Formation  
+https://sric.iitkgp.ac.in/web4/public/docss/ttpcfg.docx?1763615476 
+   
+6.Price Recommendation of the Tender Committee 
+https://sric.iitkgp.ac.in/web4/public/docss/tprtcg.docx?1763615476    
+7.Land & Border Certificate (from the L1 bidder)  
+https://sric.iitkgp.ac.in/web4/public/docss/lbcg_r.docx?1763615476   
+8.OEM Authorisation, if estimated cost is above INR 5.0 lakhs (from the L1 
+bidder) https://sric.iitkgp.ac.in/web4/public/docss/OEM.docx?1763615476    
+9.Self-Declaration for Local Content, if estimated cost is above INR 5.0 lakhs 
+(from L1 bidder) 
+https://sric.iitkgp.ac.in/web4/public/docss/sdlc_r.docx?1763615476    
+ 
+ 
+14. Normal/Custom/BoQ bid in the GeM portal for purchase above 5 lakhs 
+ 
+List of documents required 
+1. Prior approval copy regarding Equipment name, Quantity, estimated Cost 
+(including GST), Prpject code & Specification 
+ 
+2. GeM non availability certificate (as per tender name) for Custom/BOQ bid  
+3. Sponsored approval copy   
+4. Justification  
+5. Type of Bid
+
+================================================================================
+
+
+================================================================================
+CHECKING CHUNKS (as used by the chatbot)
+================================================================================
+
+Total chunks: 611
+
+
+================================================================================
+CHUNK 3 - GeM Purchase Section
+================================================================================
+5 | P a g e  
+ 
+ 
+  
+ 
+# Table of Content  Page no 
+1 Non GeM Procurement of scientific purposes up to Rs. 2,00,000 : 6 
+2 GeM Procurement of scientific equipment up to Rs 2,00,000 : 6 
+3 GeM purchase from Rs. 2,00001 to Rs. 25,0000 : 6 
+4 Local Purchase Committee Rs. 2,00,000 to Rs. 25,00,000 : 7 
+5 Purchase Proposals against Tender (NIT) : 8 
+6 Purchase for Spare Parts : 10 
+7 Purchase through PNC : 11 
+8 Purchase through AMC  : 12 
+9 Documents required for Import Shipment : 13 
+10 Documents required for foreign export shipment : 13 
+11 Tender in the CPP Portal : 14 
+12 Documents for import shipment : 14 
+13 Procurement through LI direct Purchase process from GEM portal from 
+Rs 1,00001 to 10,00000 : 15 
+14 Normal/Custom/BoQ bid in the GeM portal for purchase above 5 lakhs : 15 
+15 Purchase through Global Tender Enquiry : 16 
+16 Annexure-1 : 17-50 
+17 Annexure-2  : 51-96 
+18 Annexure-3  : 97-134 
+19 Annexure-4  : 134-184 
+20 Annexure-5 : 185 
+21  Annexureû6 : 186-187
+
+================================================================================
+
