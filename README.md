@@ -1,4 +1,4 @@
-# SRIC Dristikon
+# SRIC Drishtikon
 
 <div align="center">
 
@@ -16,9 +16,9 @@
 
 ## 🚀 Overview
 
-**SRIC Dristikon** is a state-of-the-art comprehensive dashboard developed for the **Sponsored Research and Industrial Consultancy (SRIC)** at IIT Kharagpur. The platform is engineered to empower administrators with advanced analytics, seamless project management, and an intelligent AI-driven query system.
+**SRIC Drishtikon** is a state-of-the-art comprehensive dashboard developed for the **Sponsored Research and Industrial Consultancy (SRIC)** at IIT Kharagpur. The platform is engineered to empower administrators with advanced analytics, seamless project management, and an intelligent AI-driven query system.
 
-Bridging the gap between complex institutional data and actionable insights, SRIC Dristikon utilizes a high-performance **React/TypeScript** frontend and a robust **Python (FastAPI/Streamlit)** backend to deliver a premium user experience.
+Bridging the gap between complex institutional data and actionable insights, SRIC Drishtikon utilizes a high-performance **React/TypeScript** frontend and a robust **Python (FastAPI/Streamlit)** backend to deliver a premium user experience.
 
 ---
 
